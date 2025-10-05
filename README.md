@@ -6,4 +6,6 @@
 
 # Sample Images
 
-![[before.png]]![[uploaded.png]]![[result.png]]
+![before image](https://github.com/VikramNethesh/car-portal-app/blob/main/before.png)
+![uploaded image](https://github.com/VikramNethesh/car-portal-app/blob/main/uploaded.png)
+![result image](https://github.com/VikramNethesh/car-portal-app/blob/main/result.png)
