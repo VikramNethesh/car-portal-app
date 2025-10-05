@@ -13,6 +13,46 @@ body {
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 1);
-  padding: 20px; 
-  background: white; 
+  padding: 10px; 
+  background: hsla(0, 0%, 100%, 0.80); 
+  margin: 1%;
+  text-align: center;
+}
+
+.card .card-upload-button {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  cursor: pointer;
+  border-color: hsl(0, 0%, 40%);
+  border-radius: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.card .card-upload-button:active {
+  box-shadow:5px 5px 5px hsla(0, 0%, 0%, 0.1) ;
+}
+
+.card .card-upload-button:hover{
+  opacity: 0.8;
+}
+
+.card .card-submit-button {
+  width: 100%;
+  height: auto;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: hsla(221, 95%, 61%, 0.418) ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Heading {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: hsl(0, 0%, 20%);
 }
